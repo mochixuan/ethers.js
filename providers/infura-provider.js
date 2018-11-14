@@ -19,16 +19,16 @@ function InfuraProvider(network, apiAccessToken) {
     var host = null;
     switch(network.name) {
         case 'homestead':
-            host = 'mainnet.infura.io';
+            host = 'mainnet.infura.io/v3';
             break;
         case 'ropsten':
-            host = 'ropsten.infura.io';
+            host = 'ropsten.infura.io/v3';
             break;
         case 'rinkeby':
-            host = 'rinkeby.infura.io';
+            host = 'rinkeby.infura.io/v3';
             break;
         case 'kovan':
-            host = 'kovan.infura.io';
+            host = 'kovan.infura.io/v3';
             break;
         default:
             throw new Error('unsupported network');

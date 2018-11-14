@@ -1,6 +1,6 @@
 {
-  "name": "ethers",
-  "version": "3.0.21",
+  "name": "ethersv3rn",
+  "version": "3.0.22",
   "description": "Ethereum wallet library.",
   "main": "index.js",
   "scripts": {
